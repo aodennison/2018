@@ -23,7 +23,7 @@ namespace YahooWeatherApiExamples.XmlToLinq
 
         public static string Format(XDocument xDocument)
         {
-            //xDocument.Root.GenerateNamespaceCode();
+            //from xDocument.Root.GenerateNamespaceCode();
             //XNamespace yahoo = "http://www.yahooapis.com/v1/base.rng";
             XNamespace yweather = "http://xml.weather.yahoo.com/ns/rss/1.0";
             // XNamespace geo = "http://www.w3.org/2003/01/geo/wgs84_pos#";
